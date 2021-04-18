@@ -12,19 +12,30 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'description',
+        message: 'What is your project about?'
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'Does your project require installations?'
+    },
+    {
+        type: 'input',
+        name: 'use',
+        message: 'What is the application used for?'
+    },
+    {
+        type: 'input',
         name: '',
         message: ''
-    }
+    },
     {
         type: 'input',
         name: '',
         message: ''
     }
-    {
-        type: '',
-        name: '',
-        message: ''
-    }
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
