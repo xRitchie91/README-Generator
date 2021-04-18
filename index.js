@@ -28,7 +28,7 @@ const questions = [
     {
         type: 'input',
         name: 'contributing',
-        message: ''
+        message: 'Are there contribution instructions?'
     },
     {
         type: 'input',
@@ -58,7 +58,13 @@ const questions = [
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { },
+function writeToFile(fileName, data) { 
+    fs.writeFile(fileName, data, (err) => {
+    if (err) {
+        console.err(err);
+        return;
+    }
+}
 
 // TODO: Create a function to initialize app    
 writeToFile.init(),
@@ -69,4 +75,4 @@ writeToFile.init(),
     // Function call to initialize app
     init()
 
-    ,]
+    
