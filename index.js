@@ -8,7 +8,7 @@ const questions = [
 
     {
         type: 'input',
-        name: 'project',
+        name: 'title',
         message: 'What is your project called?'
     },
     {
@@ -42,7 +42,9 @@ const questions = [
         message: 'Which license is your project covered under?',
         choices: [
             '[GNU General Public License](GNU-GP-LIC.txt)',
-            '[MIT License](MITLIC.txt)'
+            '[MIT License](MITLIC.txt)',
+            '[Apache License](ApacheLic.txt)',
+            '[Not Licensed]'
         ]
     },
     {
@@ -72,7 +74,7 @@ function writeToFile(fileName, data) {
 inquirer.prompt(questions)
 .then((answers) => {
     const markdown = generateMarkdown(answers);
-    writeToFile('README.md', markdown);
+    writeToFile('generated_README.md', markdown);
 })
 .catch((error) => {
     if (error.isTtyError) {
