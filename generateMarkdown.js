@@ -55,12 +55,13 @@ function generateMarkdown(data) {
   - [Testing](#tests)
   - [Questions](#questions)
 
-  ## Install
-  ## Use
-  ## Lic
-  ## Contribute
-  ## Qs
-  
+  ## Installation
+
+  ## Usage
+  ## License
+  ## Contributing
+  ## Questions
+
   
   `;
 }
