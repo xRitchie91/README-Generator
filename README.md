@@ -1,5 +1,5 @@
 # README Generator
-![test image](https://user-images.githubusercontent.com/74946954/115169562-01b99980-a084-11eb-90d0-f17888a1a301.png)
+![Apache 2.0 Badge](https://img.shields.io/badge/license-Apache%2.0-blue)
 
   ## Description
   README Generator is a command line application that generates a README for a GitHub repository after receiving user input
@@ -23,6 +23,9 @@
 
   ## Contributing
   The user must initiate a pull request from the repository to contribute to the application
+
+  ## Tests
+  ![test image](https://user-images.githubusercontent.com/74946954/115169562-01b99980-a084-11eb-90d0-f17888a1a301.png)
 
   ## Questions
   r.ortiz54@yahoo.com
