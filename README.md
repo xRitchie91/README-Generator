@@ -19,13 +19,13 @@
   The application is used to create a README file for a user after they input information regarding the project
 
   ## License
-  This project is licensed under Apache License (ApacheLic.txt)(https://https://www.apache.org/licenses/LICENSE-2.0)
+  This project is licensed under [![Apache License](ApacheLic.txt)](https://https://www.apache.org/licenses/LICENSE-2.0)
 
   ## Contributing
   The user must initiate a pull request from the repository to contribute to the application
 
   ## Tests
-  node index.js
+  node indes.js
   ![test image](https://user-images.githubusercontent.com/74946954/115169562-01b99980-a084-11eb-90d0-f17888a1a301.png)
 
   ## Questions
