@@ -25,6 +25,7 @@
   The user must initiate a pull request from the repository to contribute to the application
 
   ## Tests
+  node indes.js
   ![test image](https://user-images.githubusercontent.com/74946954/115169562-01b99980-a084-11eb-90d0-f17888a1a301.png)
 
   ## Questions
