@@ -56,14 +56,22 @@ function generateMarkdown(data) {
   - [Questions](#questions)
 
   ## Installation
+  ${data.installation}
 
   ## Usage
+  ${data.usage}
+
   ## License
+  ${renderLicenseSection(data.license)}
+
   ## Contributing
+  ${data.contributing}
+
   ## Questions
+  ${data.questions}
 
   
   `;
 }
 
-module.exports = generateMarkdown;
+module.exports = generateMarkdown};
