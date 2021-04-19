@@ -1,5 +1,5 @@
 # README Generator
-![Apache 2.0 Badge](https://img.shields.io/badge/license-Apache%2.0-blue)
+[![Apache 2.0 Badge](https://img.shields.io/badge/license-Apache%2.0-blue)
 
   ## Description
   README Generator is a command line application that generates a README for a GitHub repository after receiving user input
